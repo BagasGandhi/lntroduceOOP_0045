@@ -25,4 +25,12 @@ private:
     }
     
     };
- 
+    int main()
+    {
+        Mobil civic;
+        civic.input_data();
+        cout << "nama mobil = " << civic.nama_mobil << endl;
+        cout << "tipe mobil = " << civic.tipe_mobil << endl;
+        civic.output_data();
+    
+    }
